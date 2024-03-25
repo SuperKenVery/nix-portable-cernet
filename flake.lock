@@ -2,17 +2,14 @@
   "nodes": {
     "defaultChannel": {
       "locked": {
-        "lastModified": 1695416179,
-        "narHash": "sha256-610o1+pwbSu+QuF3GE0NU5xQdTHM3t9wyYhB9l94Cd8=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "715d72e967ec1dd5ecc71290ee072bcaf5181ed6",
-        "type": "github"
+        "lastModified": 1704616576,
+        "narHash": "sha256-KIIrA2UK80N0ihowxlQUtyY+kp5+/69O8gS13z7hr28=",
+        "type": "tarball",
+        "url": "https://mirror.nju.edu.cn/nix-channels/nixos-23.05/nixexprs.tar.xz"
       },
       "original": {
-        "id": "nixpkgs",
-        "ref": "nixos-23.05",
-        "type": "indirect"
+        "type": "tarball",
+        "url": "https://mirror.nju.edu.cn/nix-channels/nixos-23.05/nixexprs.tar.xz"
       }
     },
     "flake-compat": {

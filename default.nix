@@ -146,6 +146,8 @@ let
       echo "sandbox-paths = /bin/sh=\$dir/busybox/bin/busybox" >> \$dir/conf/nix.conf
 
       echo "sandbox = \$sandbox" >> \$dir/conf/nix.conf
+
+      echo "substituters = https://mirrors.cernet.edu.cn/nix-channels/store https://cache.nixos.org/" >> \$dir/conf/nix.conf
     }
 
 
